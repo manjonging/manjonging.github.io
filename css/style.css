@@ -1,0 +1,51 @@
+
+.main-navi{
+    position:absolute;
+    
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	width:100%;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: .75;
+    width:230px;
+	height:100%;
+	position:absolute;
+	background: white;
+	z-index: 5;
+}
+
+.main{
+    
+    margin:0px;
+}
+
+.navigation {
+    list-style-type: none;
+    font-style:normal;
+    font-weight: 400;
+    
+}
+    
+.contents-portfolio{
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flex;
+    flex-wrap:wrap;
+    position: absolute;
+    left:230px;
+    min-width:200px;
+}
+
+.portfolio-01 {
+    flex:1;
+}
+
+.portfolio-02 {
+    flex:1;
+}
+
+.portfolio-03 {
+    flex:1;
+}

@@ -4,10 +4,10 @@ html {
     margin:0px;
     font-family:"opensans",sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 100;
     color: #4a4a4a;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 20px;
     letter-spacing: .25;
 }
 
@@ -46,6 +46,21 @@ body{
 	letter-spacing: .75;
 }
 
+.social_footer {
+    height: 100px;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top:90px;
+}
+
+.social_footer a {
+    width: 30px;
+    margin-left:5px;
+    margin-right: 5px;
+    float:left;
+}
+
 .navigation a:hover{
 	border-bottom:1px solid white;
 }
@@ -82,27 +97,28 @@ body{
     width: 600px;
     width:300px;
     padding:0px;
-    margin:-5px;
-
+    margin:-5px 0px 0px 0px;
 }
+
 
 .inner_port {
     position: absolute;
-    background-color: #ff0000;
+    background-color: white;
     opacity: 0.8;
     z-index: 3; 
     width: 100%;
     height: 100%;
-    display:none;
+    opacity: 0;
 }
 
+.inner_port:hover{
+    opacity:0.3;
+}
 
 .inner_port_img{
     position: absolute;
     z-index: 2;
 }
-
-
 
 img {
     width :100%;

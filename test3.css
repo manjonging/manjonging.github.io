@@ -41,6 +41,17 @@ body{
     background-color:white;
 }
 
+.contact_slide_container{
+    position:absolute;
+    z-index: 1;
+    width:400px;
+    height:100%;
+    left : -100%;
+    -webkit-transition: left 0.3s ease-out;
+    transition: left 0.3s ease-out;
+    background-color:white;
+}
+
 .about_logo {
     width:250px;
     margin-left:auto;
@@ -57,6 +68,10 @@ body{
 }
 .about_slide_container_show{ 
     left : 230px;
+}
+
+.contact_slide_container_show{
+    left:500px;
 }
 
 
@@ -122,8 +137,8 @@ body{
 .portfolio{
     position: relative;
     flex:1;
-    min-width:500px;
-    width: 600px;
+    min-width:300px;
+    width: 300px;
     width:300px;
     padding:0px;
     margin:-5px 0px 0px 0px;
@@ -295,12 +310,13 @@ p3{font-size:16px;
 
 .inner_port {
     position: absolute;
-    background-color: white;
+    background-color: #1f2223;
     opacity: 0.8;
     z-index: 3; 
     width: 100%;
     height: 100%;
     opacity: 0;
+    margin top:-5px;
 }
 
 
@@ -309,18 +325,33 @@ p3{font-size:16px;
     text-align: center;
 }
 
-p{  margin-top: 250px;
+p{  margin-top: 180px;
     color: #e5234a; 
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 400;
 }
+
 
 .inner_port_img{
     position: absolute;
     z-index: 2;
 }
 
-img {
+.sidebar img {
     width :100%;
+}
+
+.slideshow-container img{
+    width: 100%;
+}
+.about_slide_container img {
+    width : 100%;
+}
+.contact_slide_container img {
+    width : 100%;
+}
+.contents_container img {
+    width : 100%;
 }
 
 h1{flex:1;
@@ -600,7 +631,6 @@ ul{
     padding-top: 30px;
     padding-bottom: 30px;
     }
-
 
 
 

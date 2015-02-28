@@ -1,0 +1,23 @@
+html, body {
+    height:100%;
+}
+body{
+    margin:0px;
+    display: flex;
+}
+
+.sidebar{
+    flex:1;
+    position:relative;
+    min-width:230px;
+    max-width: 230px;
+    height:100%;
+    background-color: red;
+}
+
+.contents_container {
+    flex:10;
+    height:100%;
+    overflow: hidden;
+    background-color:blue;
+}

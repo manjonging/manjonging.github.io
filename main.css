@@ -18,29 +18,61 @@ html,body{
     -webkit-font: subpixel-antialiased;
 }
 
+.sidebar{
+    flex:1;
+    min-width:230px;
+    max-width: 230px;
+    position: relative;
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    background-color: #1f2223;
+    
+}
+
+.inner_sidebar {
+    position: absolute;
+    height:100px;
+    top:30%;
+    background-color: #1f2223; 
+    width:300px;
+    font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	position:absolute;
+	width:100%;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: .75;
+}
+
+.navigation a:hover{
+	border-bottom:1px solid white;
+}
+
+.contents_container {
+    flex:10;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
 .contents-portfolio{
-    display:flex;
-    display:-webkit-flex;
-    display:-ms-flex;
-    flex-wrap:wrap;
     position: absolute;
     left:230px;
     min-width:200px;
 }
 
-.portfolio-01 {
-    flex:1;
-}
-
-.portfolio-02 {
-    flex:1;
-}
-
-.portfolio-03 {
-    flex:1;
+.portfolio {
+    float:left;
+    min-width:200px;
+    max-width: 500px;
+    width:700px;
 }
 
 
+img {
+    width: 100%;
+}
 
 a{
 	text-decoration: none;

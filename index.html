@@ -18,9 +18,9 @@
         
         <div class="inner_sidebar">
             
-            <h1><a href="index.html"><img src="images/logo_01.png"></h1>
+            <h1><a href="javascript:" class="index_logo"><img src="images/logo_01.png"></h1>
             <ul class="navigation">
-                <li data-target=".work-list"><a href="work.html">WORK</a></li>
+                <li data-target=".work-list" class="work_menu"><a href="#">WORK</a></li>
                 <li data-target=".about" class="about_menu"><a href="#" >ABOUT</a></li>
                 <li data-target=".contact" class="contact_menu"><a href="#">CONTACT</a></li>
             </ul>
@@ -38,7 +38,104 @@
     <!--portfolio contents -->
     <div class="slideshow-container">	
         <div class="slideshow home visible" id="slider-0">
+            
         </div>	
+        
+        <!-- Work contents -->
+        <div class="contents">
+            <div class="header">
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="portfolio">
+                <div class="inner_port">
+                    <a href="javascript:showPortfolio('b-music')"><p>b-side Music</p></a>
+                    <p2>show details</p2>
+                </div>
+                <div class="inner_port_img">
+                    <a href="bside.html"><img src="images/06.png"></a>
+                </div>
+
+            </div>
+            <div class="portfolio">
+                <div class="inner_port">
+                    <p>GentleMonster</p>
+                    <p2>show details</p2>
+                </div>
+                <img src="images/05.png">
+            </div>
+            <div class="portfolio">
+                <div class="inner_port">
+                    <p>Philanthropists</p>
+                    <p2>show details</p2>
+                </div>
+                <img src="images/03.png">
+            </div>
+            <div class="portfolio">
+                <div class="inner_port">
+                    <p>SangSangMadang</p>
+                    <p2>show details</p2>
+                </div>
+                <img src="images/02.png">
+            </div>
+            <div class="portfolio">
+                <div class="inner_port">
+                    <p>EZday</p>
+                    <p2>show details</p2>
+                </div>
+                <img src="images/01.png">
+            </div> 
+             <div class="portfolio">
+                <div class="inner_port">
+                    <p>CocaCola Special Edition</p>
+                    <p2>show details</p2>
+                </div>
+                <img src="images/04.png">
+            </div>
+
+        </div>
+        
+        <!--portfolio left-->
+        <div class="bside_contents">
+            <div class="bside_left"> 
+                <img src="images/content01.png">
+                <img src="images/content02.png">
+                <img src="images/content03.png">
+                <img src="images/content04.png">
+                <img src="images/content05.png">
+            </div>
+            <!--portfolio contents -->
+            <div class="bside_right">
+                    <div class="backtowork" onclick="closePortfolio('')">
+                        <img src="images/x_sign.png">
+                    </div>
+                    <div class="arrow">
+                        <a href="#" class="bside_prev"></a>
+                        <a href="#" class="bside_back"></a>
+                    </div>
+                    <div class="title_bside">
+                    B-side Music 
+                    </div>
+                    <div class="description01_bside">
+                    <p3>Request</p3><br>
+                    장르, 아티스트, 분위기 등으로 분류하여 사용자의 음악 취향을 분석 후,
+                    사용자의 취향과 비슷한 다른 사용자 즉, 음악 DJ들을 추천해준다.
+                    </div>
+                    <div class="description02_bside">
+                    <p3>Album Feed</p3><br>
+                    Follow한 다양한 사용자들이 
+                    구성한 플레이 앨범 리스트들이
+                    메인페이지에 Feed되어 보여진다.
+                    </div>
+                    <div class="description03_bside">
+                    <p3>Discovery</p3><br>
+                    플레이스트를 서로 공유하고 
+                    추천을 통해해 이전에 몰랐던 
+                    숨겨진 음악을 발견할 수 있는 
+                    기회를 제공한다.
+                    </div>
+            </div>
+        </div>
     </div>		
        
     <!-- About sliding panel -->
@@ -65,7 +162,7 @@
         </div>
     </div>
         
-    <!-- About sliding panel -->  
+    <!-- Contact sliding panel -->  
     <div class="contact_slide_container">
         <div class="x-sign">
             <img src="images/x-sign-right.png">
@@ -76,7 +173,6 @@
         <div class="description2_contact">89-10-9070-3903</div>
         </div>
     </div>
-
 </body>
 </html>
 
